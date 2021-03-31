@@ -9,6 +9,6 @@ Pod::Spec.new do |s|
     s.source       = { :git => "https://github.com/dgrzeszczak/MVVM.git", :tag => s.version }
     s.swift_version = '5.0'
     s.cocoapods_version = '>= 1.4.0'  
-    ss.source_files  = 'MVVM/Sources/**/*.{m,h,swift}''
-  end
+    s.source_files  = 'MVVM/Sources/**/*.{m,h,swift}'
+end
   
