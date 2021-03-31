@@ -2,7 +2,8 @@ Pod::Spec.new do |s|
     s.name         = "MVVM"
     s.version      = "1.0.1"
     s.summary      = "MVVM framework is swift library inspired by ViewModel from Android Architecture components."
-    s.description  = ""
+    s.description  = "MVVM framework is swift library inspired by ViewModel from Android Architecture components. I strongly recommend to look at Android docs."
+    s.author             = { "dgrzeszczak" => "dgrzeszczak.com" }
     s.homepage     = "https://github.com/dgrzeszczak/MVVM"
     s.license      = { :type => "MIT", :file => "LICENSE" }
     s.ios.deployment_target = '9.0'
